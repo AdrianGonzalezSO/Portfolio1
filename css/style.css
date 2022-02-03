@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "JetBrainsMono";
     src: url("../resources/font/JetBrainsMono-Regular.woff2");
@@ -27,31 +26,20 @@
     height: 80%;
     background-color: #830202;
     margin-left: 15px;
-}
-        
-#menu a{
-    text-decoration:none;
-    color:inherit;
-    font-size:20px;
-}
+}       
 #menu ul{
     padding: 0;
 }
-
 #menu li:hover{
     background-color:#830202;
     color:black;
 }
-
-
 h1{
     text-align: center;
 }
-
 span{
     animation: blinker 1s linear infinite;
 }
-
 #BodyCont{
     color:white;
     padding-top: 0;
@@ -59,32 +47,27 @@ span{
     flex-flow: column;
     align-items: center;
 }
-
-#social{
-    margin-top: 10vh;
-    margin-bottom: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 55%;
-}
-
-.logo{
-    width: 20%;
-}
-
-#formu{
-    width: 40%;  
-}
 .textInput{
     width: 100%;
 }
-
 .areaCons{
     width: 100%;
     height: 15vh;
 }
-
+#button{
+    text-align: center;
+}
+.formC{
+    background-color: #21213b;
+    border: solid #00001a 2px;
+}
+.c{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 @keyframes blinker{
     50%{
       opacity: 0;
@@ -134,8 +117,27 @@ span{
         flex-direction: column;
         justify-content: center;
     }
+    #social{
+        margin-top: 10vh;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 55%;
+    }
+    #formu{
+        width: 40%;  
+    }
+    .logo{
+        width: 180px;
+    }
+    #menu a{
+        text-decoration:none;
+        color:inherit;
+        font-size:20px;
+    }
 }
-@media all and (max-width: 640px) {
+@media all and (min-width: 320px) and (max-width: 640px) {
     #header{
         width: 100%;
         height: 15vh;
@@ -178,5 +180,100 @@ span{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    #social{
+        margin-top: 10vh;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 55%;
+    }
+    #formu{
+        width: 80%;  
+    }
+    .logo{
+        width: 120px;
+    }
+    #menu a{
+        text-decoration:none;
+        color:inherit;
+        font-size:20px;
+    }
+    .c{
+        margin: 15px 0 15px 0;
+    }
+    form{
+        margin-bottom: 15px;
+    }
+}
+@media all and (max-width: 320px) {
+    #header{
+        width: 100%;
+        height: 15vh;
+        background-color: #00001a;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #line1{
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #menu{
+        width: 98%;
+    }
+    #menu li{
+        display:inline-block;
+        width:31%;
+        padding: 1vh;
+        margin: 0;
+        background-color:#00001a;
+        border-left: 0px solid #830202;
+        text-align:center;
+        color:white;
+    }
+    #image{
+        height: 50vh;
+        background-color: #830202;
+        width: 60%;
+    }
+    #text1{
+        height: 50vh;
+        color:white;
+        width: 60%;
+        border: white 0px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #social{
+        margin-top: 10vh;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 55%;
+    }
+    #formu{
+        width: 80%;  
+    }
+    .logo{
+        width: 120px;
+    }
+    #menu a{
+        text-decoration:none;
+        color:inherit;
+        font-size:15px;
+    }
+    .c{
+        margin: 15px 0 15px 0;
+    }
+    form{
+        margin-bottom: 15px;
     }
 }
