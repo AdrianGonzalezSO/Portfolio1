@@ -1,7 +1,8 @@
 @font-face {
     font-family: "JetBrainsMono";
     src: url("../resources/font/JetBrainsMono-Regular.woff2");
-}*{
+}
+*{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -41,6 +42,9 @@ h1{
 }
 span{
     animation: blinker 1s linear infinite;
+}
+#skills{
+    width: 80%;
 }
 #BodyCont{
     color:white;
@@ -94,7 +98,6 @@ a{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items: center;
     }
     #menu{
         width: 75%;
@@ -110,9 +113,8 @@ a{
         color:white;
     }
     #image{
-        height: 50vh;
-        background-color: #830202;
         width: 35%;
+        height: 50vh;
     }
     #text1{
         height: 50vh;
@@ -122,6 +124,8 @@ a{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-left: 50px;
+
     }
     #social{
         margin-top: 10vh;
@@ -164,6 +168,7 @@ a{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        padding-bottom: 15px;
     }
     #menu{
         width: 98%;
@@ -178,9 +183,8 @@ a{
         color:white;
     }
     #image{
-        height: 50vh;
-        background-color: #830202;
-        width: 60%;
+
+        width: 85%;
     }
     #text1{
         height: 50vh;
@@ -237,6 +241,7 @@ a{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        padding-bottom: 15px;
     }
     #menu{
         width: 98%;
@@ -252,9 +257,9 @@ a{
         color:white;
     }
     #image{
-        height: 50vh;
-        background-color: #830202;
-        width: 60%;
+        width: 85%;
+        display: flex;
+        align-items: center;
     }
     #text1{
         height: 50vh;
