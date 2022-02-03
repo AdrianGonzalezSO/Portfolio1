@@ -23,9 +23,11 @@
 }
 #logo{
     width: 23%;
+    text-align: center;
+}
+#logoimg{
     height: 80%;
-    background-color: #830202;
-    margin-left: 15px;
+    max-width: 95%;
 }       
 #menu ul{
     padding: 0;
@@ -83,6 +85,10 @@ a{
         justify-content: space-between;
         align-items: center;
     }
+    #logo{
+        width: 23%;
+        text-align: center;
+    }
     #line1{
         padding-top: 15vh;
         display: flex;
@@ -128,7 +134,7 @@ a{
     #formu{
         width: 40%;  
     }
-    .logo{
+    .logos{
         width: 180px;
     }
     #menu a{
@@ -147,6 +153,10 @@ a{
         justify-content: space-between;
         align-items: center;
     }
+    #logo{
+        width: 90%;
+        text-align: center;
+    }
     #line1{
         padding-top: 0;
         display: flex;
@@ -160,7 +170,6 @@ a{
     #menu li{
         display:inline-block;
         width:31%;
-        padding: 1vh;
         margin: 0;
         background-color:#00001a;
         border-left: 0px solid #830202;
@@ -192,7 +201,7 @@ a{
     #formu{
         width: 80%;  
     }
-    .logo{
+    .logos{
         width: 120px;
     }
     #menu a{
@@ -217,6 +226,10 @@ a{
         justify-content: space-between;
         align-items: center;
     }
+    #logo{
+        width: 90%;
+        text-align: center;
+    }
     #line1{
         padding-top: 0;
         display: flex;
@@ -262,7 +275,7 @@ a{
     #formu{
         width: 80%;  
     }
-    .logo{
+    .logos{
         width: 120px;
     }
     #menu a{
