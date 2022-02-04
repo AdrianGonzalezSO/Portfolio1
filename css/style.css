@@ -113,13 +113,16 @@ a{
         color:white;
     }
     #image{
-        width: 35%;
+        width: 40%;
         height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     #text1{
         height: 50vh;
         color:white;
-        width: 35%;
+        width: 40%;
         border: white 0px solid;
         display: flex;
         flex-direction: column;
@@ -183,8 +186,10 @@ a{
         color:white;
     }
     #image{
-
         width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     #text1{
         height: 50vh;
@@ -259,7 +264,8 @@ a{
     #image{
         width: 85%;
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;
     }
     #text1{
         height: 50vh;
